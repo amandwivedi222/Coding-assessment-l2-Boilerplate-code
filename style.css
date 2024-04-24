@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto:300", sans-serif;
+  -webkit-user-select: none;  /* Chrome, Safari and Opera */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* Internet Explorer/Edge */
+  user-select: none;  
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white
+}
+a{
+  display: inline-block;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.23);
+  color: white;
+  transform: scale(1.03);
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.98);
+}
+
+.container img{
+  width: 362px;
+  height: 553px;
+  border-radius: 10px;
+ }
+.container{
+
+  margin: 40px;
+}
+#cards img{
+  width: 70px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  border: 2px solid rgba(67, 26, 116, 0)
+
+}
+#cards img:hover{
+  border: 2px solid rgb(66, 26, 116);
+  transform: scale(1.1);
+}
+
+#cards{
+  display: flex;
+  overflow: auto;
+  width: 362px;
+}
+
+.content{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: fit-content;
+  margin-top: 40px;
+ 
+}
+.content div, s{
+  margin: 10px;
+}
+.content div:nth-child(1){
+  font-size: 12px;
+  color: rgb(158, 157, 157);
+}
+.content div:nth-child(2){
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.348);
+}
+.content div:nth-child(3)
+{
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.content div:nth-child(3) span:nth-child(1){
+  font-size: 27px;
+  margin-top: 10px;
+  font-weight: bolder;
+  color: rgb(47, 97, 133);
+}
+.content div:nth-child(3) span:nth-child(2){
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgba(204, 47, 47, 0.682);
+}
+.content s{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgba(107, 107, 107, 0.797);
+  letter-spacing: 1px;
+}
+
+.content div:nth-child(5), .content div:nth-child(7)
+{
+  font-size: 15px;
+  color: rgb(158, 157, 157);
+  border-top: 1px solid rgba(128, 128, 128, 0.348);
+  padding-top: 40px;
+}
+
+.content div:nth-child(6)
+{
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.content div:nth-child(7){
+  padding-top: 17px;
+} 
+
+.content div:nth-child(8){
+  display:flex;
+}
+.content div:nth-child(8) span{
+  display: flex;
+  font-size: 12px;
+  width: fit-content;
+  align-items: center;
+} 
+.content div:nth-child(8) input{
+  display: flex;
+  transform: scale(1.2);
+  margin-bottom:2px;
+  align-items: center;
+} 
+
+
+.color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  height: 30px; 
+  width: 30px;
+  padding: 5px;
+}
+.outer-color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  border: 3px solid transparent;
+}
+
+
+.content :nth-child(8) span{
+  /* display:inline-block; */
+  background-color: rgba(109, 122, 131, 0.314);
+  border-radius: 10px;
+  margin: 5px;
+  /* white-space: nowrap; */
+  color: rgb(101, 101, 101);
+  padding:3px;
+  padding-right: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+.content :nth-child(8) span:hover{
+  background-color: rgba(21, 33, 100, 0.804);
+  color: white
+}
+
+.radio{
+  accent-color: rgba(21, 33, 100, 0.804);
+}
+
+
+.content :nth-child(9){
+  display:inline;
+  background-color: rgba(109, 122, 131, 0.314);
+  border-radius: 19px;
+  width: 100px;
+  color: rgba(21, 33, 100, 0.804);
+  padding:5px;
+}
+
+.content :nth-child(9) span{
+  margin: 50px;
+}
+
+
+.content button i{
+  
+  margin-right:10px;
+
+}
+.content button{
+  border-radius: 30px;
+  border: 0px;
+  background-color: rgba(21, 33, 100, 0.804);
+  padding:13px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.content :nth-child(11){
+  padding: 4px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: rgba(188, 226, 37, 0.365);
+  border-radius: 10px;
+  width: fit-content;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.content :nth-child(12)
+{
+  border-top: 1px solid rgba(128, 128, 128, 0.348);
+  padding-top:15px;
+  color: rgba(105, 106, 104, 0.624);
+}
+
+/* Styles for Mobile Screen */
+@media (max-width: 767px) {
+  /* Your CSS for mobile screens goes here */
+  .container{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    width:80%;
+    flex-direction: column;
+  }
+  .container img{
+    width: 40vh;
+    height: 50vh;
+  }
+
+  .content{
+   margin-top: 50px;
+  }
+  body{
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    width:80%;
+    
+  }
+   #cards {
+    flex-direction: column;
+    width: 11vh;
+    height: 50vh;
+    border-top: 1px solid rgba(95, 95, 95, 0.569);
+    border-bottom: 1px solid rgba(95, 95, 95, 0.569);;
+    
+  }
+  .content{
+    border-left: 1px solid rgba(95, 95, 95, 0.569);
+  }
+}
